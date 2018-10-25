@@ -35,6 +35,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     init.target.rc
 
+# FM
+PRODUCT_PACKAGES += \
+    FM2 \
+    libqcomfm_jni \
+    qcom.fmradio
+
 # Hostapd
 PRODUCT_PACKAGES += \
     android.hardware.wifi.hostapd-V1.0-java
